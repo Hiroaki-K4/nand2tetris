@@ -14,4 +14,20 @@ CHIP And16 {
 
     PARTS:
     // Put your code here:
+    And(a=a[0], a=b[0], out=out[0]);
+    And(a=a[1], a=b[1], out=out[1]);
+    And(a=a[2], a=b[2], out=out[2]);
+    And(a=a[3], a=b[3], out=out[3]);
+    And(a=a[4], a=b[4], out=out[4]);
+    And(a=a[5], a=b[5], out=out[5]);
+    And(a=a[6], a=b[6], out=out[6]);
+    And(a=a[7], a=b[7], out=out[7]);
+    And(a=a[8], a=b[8], out=out[8]);
+    And(a=a[9], a=b[9], out=out[9]);
+    And(a=a[10], a=b[10], out=out[10]);
+    And(a=a[11], a=b[11], out=out[11]);
+    And(a=a[12], a=b[12], out=out[12]);
+    And(a=a[13], a=b[13], out=out[13]);
+    And(a=a[14], a=b[14], out=out[14]);
+    And(a=a[15], a=b[15], out=out[15]);
 }
