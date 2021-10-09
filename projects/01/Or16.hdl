@@ -14,4 +14,29 @@ CHIP Or16 {
 
     PARTS:
     // Put your code here:
+    Nand(a=a[0], b=a[0], out=w1);
+    Nand(a=b[0], b=b[0], out=w2);
+    Nand(a=w1, b=w2, out=out[0]);
+    Nand(a=a[1], b=a[1], out=w1);
+    Nand(a=b[1], b=b[1], out=w2);
+    Nand(a=w1, b=w2, out=out[1]);
+    Nand(a=a[2], b=a[2], out=w1);
+    Nand(a=b[2], b=b[2], out=w2);
+    Nand(a=w1, b=w2, out=out[2]);
+    Nand(a=a[3], b=a[3], out=w1);
+    Nand(a=b[3], b=b[3], out=w2);
+    Nand(a=w1, b=w2, out=out[3]);
+    Nand(a=a[4], b=a[4], out=w1);
+    Nand(a=b[4], b=b[4], out=w2);
+    Nand(a=w1, b=w2, out=out[4]);
+    Nand(a=a[5], b=a[5], out=w1);
+    Nand(a=b[5], b=b[5], out=w2);
+    Nand(a=w1, b=w2, out=out[5]);
+    Nand(a=a[0], b=a[0], out=w1);
+    Nand(a=b[0], b=b[0], out=w2);
+    Nand(a=w1, b=w2, out=out[0]);
+    Nand(a=a[0], b=a[0], out=w1);
+    Nand(a=b[0], b=b[0], out=w2);
+    Nand(a=w1, b=w2, out=out[0]);
+
 }
